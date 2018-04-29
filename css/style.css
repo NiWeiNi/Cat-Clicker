@@ -1,0 +1,7 @@
+.first-cat {
+    width: 500px;
+}
+
+.first-cat:hover {
+    cursor: pointer;
+}
