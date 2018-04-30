@@ -5,3 +5,11 @@
 .first-cat:hover {
     cursor: pointer;
 }
+
+.second-cat {
+    width: 500px;
+}
+
+.second-cat:hover {
+    cursor: pointer;
+}

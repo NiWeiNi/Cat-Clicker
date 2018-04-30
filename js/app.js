@@ -1,5 +1,7 @@
 "use strict"
 
-const imageCat = document.querySelector(".first-cat");
+const firstCat = document.querySelector(".first-cat");
+const secondCat = document.querySelector(".second-cat");
 let numberClicks = 0;
-imageCat.addEventListener("click", () => { numberClicks += 1; })
+firstCat.addEventListener("click", () => { numberClicks += 1; })
+secondCat.addEventListener("click", () => { numberClicks += 1; })
