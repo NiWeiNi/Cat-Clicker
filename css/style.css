@@ -1,15 +1,38 @@
-.first-cat {
-    width: 500px;
+html, body {
+    margin: 0;
+    height: 100%;
 }
 
-.first-cat:hover {
+main {
+    min-height: 100%;
+    margin-bottom: -50px;
+    display: flex;
+}
+
+.list {
+    width: 30%;
+}
+
+.list ul li {
     cursor: pointer;
 }
 
-.second-cat {
-    width: 500px;
+.display {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
 }
 
-.second-cat:hover {
+
+.picture-cat {
+    width: 800px;
+}
+
+.picture-cat:hover {
     cursor: pointer;
+}
+
+footer {
+   height: 50px;
+   text-align: center;
 }
